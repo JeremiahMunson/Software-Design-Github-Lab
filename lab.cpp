@@ -22,5 +22,8 @@ void power(int base, int exponent)
 
 int main(){
 
+    power(2,3);
+    power(7,0);
+    power(3,2);
 
 }
