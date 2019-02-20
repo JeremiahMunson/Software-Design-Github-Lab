@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void power(float base, int exponent)
+int power(float base, int exponent)
 {
     int val;
     if(exponent == 0 && base != 0)
@@ -18,6 +18,7 @@ void power(float base, int exponent)
         }
     }
     cout << val << endl;
+    return val;
 }
 
 int main(){
